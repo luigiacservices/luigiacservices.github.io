@@ -1,0 +1,588 @@
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?6i4w2b');
+  src:  url('../fonts/icomoon.eot?6i4w2b#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?6i4w2b') format('truetype'),
+    url('../fonts/icomoon.woff?6i4w2b') format('woff'),
+    url('../fonts/icomoon.svg?6i4w2b#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e900";
+}
+
+.burger-button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,.8);
+  display: none;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  z-index: 4;
+  left: 5px;
+  top: 5px;
+  color: white;
+}
+
+body {
+    font-family:'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', serif;
+    font-weight: normal;
+}
+
+h1 {
+    line-height: 1.5;
+    font-size: 40px;
+    letter-spacing: -.2px;
+    color: white;
+    
+}
+
+h1 strong {
+    color: #28208C;
+}
+
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+.even-list-title-24 {
+ text-align: center;
+}
+
+h3 {
+  color: #FFFFFF;
+}
+
+.portfolio {
+    
+    padding: 0;
+
+}
+
+
+.map {
+  width: 1000px;
+  display: block;
+}
+
+/* .project {
+   border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px; 
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+    display: flex;
+} */
+
+.project {
+    
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 0px;
+    background: #AD4046;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #FFFFFF;
+  }
+
+  .project-review{
+    
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 0px;
+    background: #0C395A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+  
+  }
+
+.project_title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project_course,
+.project_date, 
+.project_url {
+    margin: 10px;
+    padding: 5px;
+    
+}
+
+.project_description{
+    font-size: 20px;
+}
+
+.project strong {
+    font-family: 'Fjalla One';
+}
+
+.project_details{
+    width: 45%;
+    background: #AD4046;
+       
+    
+}
+.review{
+  /* width: 45%; */
+  background: #0C395A;
+  overflow: visible;
+  
+}
+
+.project_imageContainer {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.project_imageContainer img {
+  max-width: 100%;
+}
+
+.hero {
+    /* height: 300px; */
+    /* background-image: url('../images/edwin_tie.jpg'); */
+    background-color: #FFFFFF;
+    background-size: cover;
+    /* background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right; */
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header2 {
+    background-color: #0C395A;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header2 ol {
+    display: flex;
+    height: inherit;
+  }
+ .header2 ol li {
+     height: inherit;
+ } 
+
+ .header2 a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.logo {
+    height: 90px;
+}
+
+.footer2 {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+
+    .event_list {
+        display: flex;
+      
+        flex-wrap: wrap;
+      }
+      .event-list-title {
+        margin-left: 20px;
+      }
+      .event { 
+        margin: 1%;
+        width: 31%;
+        flex-shrink: 0;
+        border-radius: 10px;
+        overflow: hidden;
+        background: #f4fbff;
+      }
+      .event img {
+        width: 350px;
+        height: 150px;
+        object-fit: cover;
+      }
+      /* .event_detail {
+        margin: 20px 40px;
+        margin-top: -40px;
+        background-color: white;
+        position: relative;
+        padding: 20px;
+        text-align: center;
+      } */
+
+      .event_detail {
+        /* margin: 5px 10px;*/
+        margin-top: -5px; 
+        background-color: #FFFFFF;
+        position: relative;
+         padding: 10px;
+        text-align: center;
+      }
+      .event_description {
+        text-align: center;
+      }
+      .event_url {
+        color: #056fff;
+        border: 1px solid;
+        padding: 5px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+
+      .contact {
+        background-color: #0C395A;
+        color: white;
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0px 175px 10px 175px;
+      }
+
+    .social {
+    }
+    .social-link {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      margin: 0 10px;
+      background-size: 50px 50px;
+    }
+    .social-link.twitter {
+      background-image: url('../images/twitter.svg');
+    }
+    .social-link.facebook {
+      background-image: url('../images/facebook.svg');
+    }
+    .social-link.github {
+      background-image: url('../images/github.svg');
+    }
+    .social-link.instagram {
+      background-image: url('../images/instagram.svg');
+    }
+    .form-email input {
+      border-color: gray;
+      border-style: solid;
+      border-radius: 5px;
+      padding: 10px 20px 10px 25px;
+      background-image: url('../images/envelope.svg');
+      background-size: 15px 15px;
+      background-repeat: no-repeat;
+      background-position-y: center;
+      background-position-x: 5px;
+    }
+    .form-email button {
+      display: block;
+      background: transparent;
+      color: white;
+      padding: 10px 0;
+      border-radius: 5px;
+      width: 100px;
+      margin-top: 10px;
+    }
+    
+    .form-email h3 { 
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .container {
+        /* border: 1px solid red; */
+        max-width: 1000px;
+        flex: 1;
+        margin: 0 auto;
+        display: inherit;
+        justify-content: inherit;
+        align-items: inherit;
+        height: inherit;
+        flex-wrap: inherit;
+      }
+
+      
+
+      .flexible-video {
+        width: 100%;
+        height: 0;
+        padding-top: 56.25%;
+        position: relative;
+      }
+      .youtube-video {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        
+      }
+
+      .html-video {
+        width: 100%;
+        height: auto;
+        /* max-width: 100%; */
+      }
+
+      @media screen and (max-width: 1023px){
+       
+        .hero {
+          height: auto;
+          position: relative;
+          overflow: hidden;
+          padding: 2em;
+        }
+
+        .hero-image {
+          /* position: absolute; */
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          width: 100%;
+        }
+
+        h1 {
+          font-size: 2em;
+          z-index: 2;
+        }
+
+      }
+      @media screen and (max-width: 767px){
+
+        .map {
+          width: 370px;
+          display: block;
+        }
+
+        .hero {
+          display: none;
+        }
+
+        .review {
+          padding: 5px;
+          font-size: 10px;
+        }
+
+
+        .burger-button {
+          display: block;
+        }
+
+        .menu {
+          position: fixed;
+          background: rgba(12, 57, 90, 0.86);
+          z-index: 3;
+          top: 0;
+          left: -100vw;
+          width: 100vw;
+        }
+
+        .menu.is-active {
+          left: 0;
+        }
+
+        
+        .header2 {
+          display: block;
+          height: auto;
+        }
+
+        .header2 ol{
+          display: block;
+        }
+
+        .header2 ol li{
+          height: 50px;
+         
+        }
+
+        .header2 a{
+          justify-content: center;
+          height: 40px;
+          font-size: 1.5em;
+          margin-bottom: .5em;
+        }
+
+        .header2 .logo{
+          text-align: center;
+        }
+
+        .project {
+          display: block;
+        }
+
+        .project_imageContainer {
+          width: auto;
+          text-align: center;
+          
+        }
+
+        .project_details {
+          width: auto;
+          font-size: 16px;
+
+        }
+
+        .project_title {
+
+          font-size: 1.5em;
+          margin-bottom: .3em;
+
+        }
+
+        .project_url, .project_course, .project_date {
+          font-size: 1em;
+          margin: .3em 0;
+
+        }
+
+         .project_description {
+          font-size: 0.8em;
+
+        }
+
+        .event {
+          width: auto;
+          flex-shrink: initial;
+        }
+
+        .event img {
+          width: 100%;
+        }
+
+        .event_detail {
+          margin: -2em .5em .5em;
+          padding: 1em;
+        }
+
+        .contact{
+          height: auto;
+          padding: 1em 0;
+          text-align: center;
+          display: block;
+        }
+
+        .form-email button {
+          margin: 1em auto;
+        }
+        
+        .form-email h3 {
+          margin-top: 0;
+        }
+
+        .footer2 {
+          display: block;
+          text-align: center;
+          border: 1px solid transparent;
+        }
+      }
+
+
+
+      @media screen and (max-width: 480px){
+        
+        h1 {
+          font-size: 1.5em;
+        }
+        .project_details {
+          width: auto;
+          font-size: 12px;
+
+        }
+
+        .contact{
+          height: auto;
+          padding: 1em 0;
+          text-align: center;
+          display: block;
+        }
+
+
+      }
+
+
+      @media screen and (max-width: 320px){
+      
+        h1 {
+          font-size: 1.1em;
+        }
+
+        .hero {
+          padding: 2em 1em;
+        }
+      }
