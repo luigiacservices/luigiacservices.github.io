@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuigiAcServices</title>
+    <link rel="icon" href="images/luigis_logo.jpg" type="image/jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <!-- <link rel="stylessheet" href="css/media.css" media = "screen and (max-width:768px)"> -->
+    <link rel="stylesheet" href="css/styles.css">
+   
+    
+</head>
+<body>
+    <i class="icon-menu burger-button" id="burger-menu"></i>
+    <header class="header2">   
+          <div class="container">   
+            <figure class="logo">
+                <img height="90px" src="images/luigis_logo.jpg" alt="Luigi's Logo">
+            </figure>        
+            <h5>Luigi's AC Services <br><br> Call us 24/7 - (954)638-2854 / (772)227-9004  </h5>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a class="link" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="link" href="index.html#portfolio">About</a>
+                    </li>
+                    <li>
+                        <a class="link" href="index.html#review">Reviews</a>
+                    </li>
+                    <li>
+                        <a class="link" href="index.html#contactus">Contact Us</a>
+                    </li>
+                  </ol>
+            </nav>    
+        </div>       
+    </header>
+   
+  
+
+    <section class="portfolio" id="portfolio"> 
+    <div class="container">
+    <article class="project">
+       
+        <div class="project_details">
+            <h3 class="project_title">We are Luigi's AC Services</h3>
+            <h5 class="project_course"> Since our founding, we’ve worked with numerous clients throughout the area.
+                 Great service begins and ends with experienced and friendly professionals, which is why we put so much consideration
+                  into selecting only the best to join our team. We complete projects efficiently and on schedule, 
+                  and go above and beyond to form lasting relationships with our clients. </h5>
+
+                  <a class="event_url" href="history.html">Read More...</a>
+          
+        </div>
+        
+       
+    </article>
+    
+    
+</div>
+</section>
+
+
+    <section id="contactus" class="contact">
+        <form action="/suscription/" class="form-email">
+            <h3>Get in Touch</h3> 
+            <h5>Call us 24/7 - (954)638-2854 / (772)227-9004  </h5>
+            <h2 class="even-list-title-24">Services 24/7  Lic # 1819271</h2>
+            <!-- <input type="text" placeholder="Send your email" value="Name">
+            <input type="text" placeholder="Send your email" value="Comments">
+            <input type="text" placeholder="Send your email" value="@gmail.com">
+            <button>Submmit</button> -->
+            
+        </form>
+        
+        <div class="social">
+            <a href="https://www.facebook.com/luis.e.bolivar.58" class="social-link facebook"></a>
+            <a href="https://instagram.com/luigi_ac_services" class="social-link instagram"></a>
+          </div>
+    </section>
+    <footer class="footer2">
+        <div>
+            <a>Luigi's AC Services Website</a>
+        </div>
+        <div>
+            <a>Designed by www.edwinromero.com</a>
+        </div>
+    </footer>
+    <script>
+        const ipad = window.matchMedia('screen and (max-width: 767px)')
+        const menu = document.querySelector('.menu');
+//console.log(menu);
+const burgerButton = document.querySelector('#burger-menu')
+//console.log(burgerButton);
+
+
+ipad.addListener(validation)
+    
+
+function validation(event){
+    if (event.matches) {
+        burgerButton.addEventListener('click', hideShow) 
+    } else {
+        burgerButton.removeEventListener('click', hideShow)
+    }
+}
+function hideShow() {
+if (menu.classList.contains('is-active')){
+menu.classList.remove('is-active')
+} else {
+menu.classList.add('is-active')
+}
+}
+
+    </script>
+</body>
+</html>
