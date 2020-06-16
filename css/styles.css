@@ -304,6 +304,19 @@ figure {
         border-radius: 5px;
       }
 
+      .url_hist {
+        color: white;
+        border: 1px solid;
+        padding: 5px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        justify-content: center;
+        position: relative;
+        padding: 10px;
+       text-align: center;
+        
+      }
+
       .contact {
         background-color: #0C395A;
         color: white;
