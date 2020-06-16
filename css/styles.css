@@ -126,6 +126,22 @@ h3 {
     color: #FFFFFF;
   }
 
+  .history {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    margin: 5px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: black;
+    height: 500px;
+    line-height: 2em;
+  }
+
   .project-review{
     
     border: 1px solid gray;
@@ -145,6 +161,11 @@ h3 {
     font-size: 30px;
     margin-top: 0;
     margin-bottom: 10px;
+}
+
+.history_title {
+  font-size: 30px;
+  color: black;
 }
 
 .project_course,
@@ -169,6 +190,15 @@ h3 {
        
     
 }
+
+.history_details{
+  width: auto;
+  background: #0C395A;
+  background: white;
+     
+  
+}
+
 .review{
   /* width: 45%; */
   background: #0C395A;
@@ -516,6 +546,18 @@ figure {
           font-size: 1.5em;
           margin-bottom: .3em;
 
+        }
+
+        .history_details {
+          width: auto;
+          font-size: 10px;
+          height: 520px;
+
+        }
+
+        .history_title {
+          font-size: 1em;
+          color: black;
         }
 
         .project_url, .project_course, .project_date {
